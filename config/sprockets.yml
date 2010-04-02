@@ -4,6 +4,7 @@
   - vendor/sprockets/*/src
   - vendor/plugins/*/javascripts
   - vendor/plugins/*/app/javascripts
-:source_files:
-  - app/javascripts/application.js
-  - app/javascripts/**/*.js
+:builds:
+  :default:
+    - app/javascripts/application.js
+    - app/javascripts/**/*.js

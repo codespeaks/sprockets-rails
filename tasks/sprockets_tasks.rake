@@ -1,7 +1,7 @@
 namespace :sprockets do
-  desc "Generate and install the Sprockets concatenated JavaScript file"
-  task :install_script => :environment do
-    SprocketsApplication.install_script
+  desc "Generate and install the Sprockets concatenated JavaScript files"
+  task :install_scripts => :environment do
+    SprocketsApplication.install_scripts
   end
   
   desc "Install any assets provided by Sprockets scripts"
